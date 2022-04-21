@@ -75,6 +75,27 @@ body {
   float: right;
 }
 
+.team
+{
+  margin-top: 75px 0;
+}
+.stafftitle
+{
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
+.stafftitle:after
+{
+  content: '';
+  background: #333;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
