@@ -96,6 +96,10 @@ body {
   width: 150px;
   margin: 10px auto;
 }
+.smallertxt
+{
+  font-size: 22px;
+}
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
