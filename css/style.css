@@ -21,6 +21,28 @@ body {
   margin-left: 50px;
 }
 
+.polimgleft
+{
+  width: 600px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.polimgright
+{
+  width: 600px;
+  border-radius: 10px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.footertext
+{
+  text-align: center;
+}
 .emp1 {
   height: 800px;
   width: 300px;
@@ -41,7 +63,7 @@ body {
 }
 .header {
   overflow: hidden;
-  background-color: lightskyblue;
+  background-color: rgb(25, 128, 192);
   padding: 20px 10px;
 }
 
@@ -55,8 +77,12 @@ body {
   line-height: 25px;
   border-radius: 4px;
 }
-
-.header a.logo {
+.normaltext
+{
+  margin-left: 10px;
+}
+.header a.logo
+{
   font-size: 25px;
   font-weight: bold;
 }
